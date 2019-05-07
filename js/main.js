@@ -7,6 +7,6 @@ $(document).ready(function() {
 
   $('.hello').on('click', (e) => {
     e.preventDefault()
-    $('h1, p').toggle('slow')
+    $('h3, p').toggle('slow')
   })
 })
